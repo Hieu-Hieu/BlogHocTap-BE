@@ -1,0 +1,115 @@
+.search-container {
+    min-height: calc(100vh - 260px);
+    background-color: #eef0f1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.search-container .loader{
+    margin-top: 100px;
+    margin-left: 50%;
+}
+
+.container-body {
+    padding: 16px;
+    width: 80%;
+    align-content: center;
+}
+
+.search-list {
+    
+}
+
+.search-list h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.search-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.search-list ul li {
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #202428;
+}
+
+.search-list ul li:nth-child(1){
+    background-color: #fff;
+    color: #08090a;
+    font-weight: 500;
+}
+
+.search-list ul li:hover {
+    background-color: rgba(8,9,10, 0.05);
+    color: #323ebe;
+}
+
+.search-list ul li a {
+    text-decoration: none;
+    color: #202428;
+}
+
+.content-area .blog-item {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.blog-item {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.blog-item a img{
+    width: 100%;
+    border-radius: 5px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.blog-item a .blog-item-content{
+    padding: 16px;
+}
+
+.blog-item a {
+    text-decoration: none;
+}
+
+.blog-item a .blog-item-content .author{
+    color: #363d44;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: flex-end;
+}
+
+.blog-item a .blog-item-content .author img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.blog-item a .blog-item-content .author-title {
+    padding-left: 40px;
+    font-size: 24px;
+    color: #08090a;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.blog-item a .blog-item-content .author-title svg{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.blog-item a .blog-item-content .author-title span {
+    font-size: 12px;
+    font-weight: 400;
+}
+

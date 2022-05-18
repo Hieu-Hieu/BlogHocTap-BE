@@ -1,0 +1,112 @@
+.navbar{
+    background-color: #fff;
+    height: 56px;
+}
+
+.navbar .container .navbar-brand{
+    font-size: 1.8rem;
+    color: #4f299b;
+    font-weight:700;
+    cursor: pointer;
+}
+
+.navbar .container .navbar-collapse form input{
+    background-color: #f9fafa;
+    width: 300px;
+    color: #ffffff;
+    margin-left: 2vw;
+    border: 1px solid #b5bdc4;
+}
+
+.navbar .container .navbar-collapse form input:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #4f299b;
+    color: #000;
+}
+
+.navbar .container .navbar-collapse form button{
+    background-color: #4f299b;
+}
+
+.navbar .container .navbar-collapse form button:hover{
+    background-color: #5133d6;
+}
+
+.navbar .container .navbar-collapse .new-post{
+    background-color: #3b49df;
+    border-radius: 4px;
+    margin-right: 1vw;
+}
+
+.navbar .container .navbar-collapse .new-post:hover{
+    background-color: #4f299b;
+}
+
+.navbar .container .navbar-collapse .user-icon{
+    width: 32px;
+    height: 32px;
+    background-color: #aaa;
+    border: none;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    margin-top: 3px;
+}
+
+.navbar .container .navbar-collapse .user-icon img{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.navbar .container .navbar-collapse .user-icon:hover{
+    transform: scale(1.05);
+}
+
+.navbar .container .navbar-collapse .dropdown-toggle::after {
+    display: none;
+}
+
+.navbar .container .navbar-collapse .login{
+    background-color: #3b49df;
+    width: 7vw;
+    border-radius: 4px;
+    margin-right: 1vw;
+    font-size: 16px;
+}
+
+.navbar .container .navbar-collapse .login:hover{
+    background-color: #4f299b;
+}
+
+.navbar .container .navbar-collapse .signup{
+    background-color: #3b49df;
+    width: 7vw;
+    border-radius: 4px;
+    margin-right: 1vw;
+}
+
+.navbar .container .navbar-collapse .signup:hover{
+    background-color: #4f299b;
+}
+.navbar .container .navbar-collapse .nav-link {
+    display: flex;
+    align-items: center;
+}
+.navbar .container .navbar-collapse .noti {
+    color: #000;
+    font-size: 22px;
+}
+
+.dropdown-menu {
+    border: 2px solid #08090a;
+    box-shadow: 4px 4px 0 #08090a;
+    border-radius: 5px;
+    min-width: 250px;   
+}
+
+.dropdown-item {
+    border-radius: 5px;
+    padding: 0.5rem;
+    height: 40px;
+}

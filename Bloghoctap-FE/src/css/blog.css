@@ -1,0 +1,217 @@
+.blog-container {
+    min-height: calc(100vh - 260px);
+    background-color: #eef0f1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container {
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.col {
+    padding: 0 8px;
+}
+
+.not1{
+    background-color: #eef0f1;
+}
+
+.not2{
+    background-color: #eef0f1;
+    padding-right: 50px;
+}
+
+.not3{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0;
+    max-height: 145px;
+}
+
+
+.utilities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.utilities .utility-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    border-radius: 50%;
+    position: sticky;
+}
+
+
+.utilities .utility-item svg{
+    font-size: 35px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.utilities .utility-item.like svg:hover {
+    background-color: rgba(255,0,0,0.2);
+}
+
+.utilities .utility-item.comment svg:hover {
+    background-color: rgba(0,255,0,0.2);
+}
+
+.utilities .utility-item.save svg:hover {
+    background-color: rgba(0,0,255,0.2);
+}
+
+.utilities .utility-item.more svg:hover {
+    background-color: rgba(255,0,255,0.2);
+}
+
+
+.blog {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.blog .blog-image {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.blog .blog-image img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.blog .blog-content{
+    padding: 32px 64px;
+    color: #08090a;
+    word-wrap: break-word;
+    margin-left: 0;
+}
+
+.blog .blog-content .blog-title {
+    font-size: 48px;
+    font-weight: 800;  
+    line-height: 1.25;
+}
+
+.follow-container {
+    width: 100%;
+    position: relative;
+    padding: 0 16px 16px;
+}
+
+.follow-container .header-black {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: #000;
+    left: 0;
+    top: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.follow-container .following {
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    width: 100%;
+}
+
+.follow-container .following .name {
+    font-size: 20px;
+    color: #202428;
+    font-weight: 700;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.follow-container .following .name img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.follow-container .following .btn{
+    width: calc(100% - 32px);
+    margin-bottom: 15px;
+    background-color: #3b49df;
+    font-weight: 500;
+}
+
+.blog-comment {
+    width: 100%;
+    border-top: 1px solid #eef0f1;
+    padding: 32px 64px;
+}
+
+.blog-comment h1{
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.my-comment {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    padding-bottom: 40px;
+}
+
+
+.name-avatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+
+.area-comment {
+    
+}
+
+.area-comment textarea {
+    width: 100%;
+    border-radius: 5px;
+    height: 128px;
+    border: 1px solid #eef0f1;
+}
+
+.area-comment textarea:focus {
+    outline: none;
+    border: 1px solid #000;
+}
+
+
+.area-comment .btn {
+    background-color: #8992ec;
+    margin-top: 10px;
+    border: none;
+}
+
+.general-comment {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #363d44;
+    padding: 10px 0;
+    
+}
+
+.general-comment p {
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: normal;
+}
+
